@@ -1,13 +1,11 @@
 function showSection(sectionId) {
-    // Hide all sections
+   
     document.querySelectorAll('.section').forEach(section => {
       section.style.display = 'none';
     });
-    // Show the selected section
     document.getElementById(sectionId).style.display = 'block';
   }
   
-  // Basic Operations
   function add() {
     const num1 = parseFloat(document.getElementById('num1').value);
     const num2 = parseFloat(document.getElementById('num2').value);
@@ -36,7 +34,6 @@ function showSection(sectionId) {
     }
   }
   
-  // Currency Conversion
   function convertCurrency() {
     const amount = parseFloat(document.getElementById('amount').value);
     const fromCurrency = document.getElementById('from-currency').value;
@@ -56,7 +53,6 @@ function showSection(sectionId) {
     }
   }
   
-  // BMI Calculator
   function calculateBMI() {
     const weight = parseFloat(document.getElementById('weight').value);
     const height = parseFloat(document.getElementById('height').value);
@@ -73,7 +69,6 @@ function showSection(sectionId) {
     }
   }
   
-  // Age Calculator
   function calculateAge() {
     const birthYear = parseInt(document.getElementById('birth-year').value);
     const currentYear = new Date().getFullYear();
@@ -84,7 +79,6 @@ function showSection(sectionId) {
     }
   }
   
-  // EMI Calculator
   function calculateEMI() {
     const principal = parseFloat(document.getElementById('principal').value);
     const rate = parseFloat(document.getElementById('rate').value);
@@ -99,7 +93,6 @@ function showSection(sectionId) {
     }
   }
   
-  // Area Calculator
   function calculateArea() {
     const length = parseFloat(document.getElementById('length').value);
     const width = parseFloat(document.getElementById('width').value);
@@ -110,7 +103,6 @@ function showSection(sectionId) {
     }
   }
   
-  // Volume Calculator
   function calculateVolume() {
     const length = parseFloat(document.getElementById('v-length').value);
     const width = parseFloat(document.getElementById('v-width').value);
@@ -122,7 +114,6 @@ function showSection(sectionId) {
     }
   }
   
-  // Scientific Calculator
   function calculateSquareRoot() {
     const num = parseFloat(prompt('Enter number:'));
     if (num < 0) {

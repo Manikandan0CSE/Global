@@ -6,7 +6,7 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      background-image: url(/Global/img/freepik__a-modern-sleek-calculatorthemed-background-featuri__90155\ \(1\).jpeg);
+      background-image: url(/img/cal.jpeg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -75,7 +75,6 @@
       color: #fff;
     }
 
-    /* Responsive styles for mobile */
     @media (max-width: 480px) {
       .container {
         padding: 15px;
